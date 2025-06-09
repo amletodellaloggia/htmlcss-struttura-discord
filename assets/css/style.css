@@ -15,6 +15,7 @@ hr {
 	border: 2px solid gray;
 }
 
+
 .justify-end {
 	justify-content: flex-end;
 	align-items: center;
@@ -162,6 +163,28 @@ header {
 	border: 2px dashed white;
 }
 
-.w-100footer {
+.w-60footer {
+	display: flex;
+	justify-content: flex-end;
+	width: 60%;
+	height: 50px;
+}
+
+.footer-end-container {
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
+	padding: 10px 0;
+}
+
+.logo-footer, .bottone-footer {
+	border: 2px dashed black;
+}
+
+.footer-full-width-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	width: 100%;
+	height: 70px;
 }
