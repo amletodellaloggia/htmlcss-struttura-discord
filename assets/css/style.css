@@ -11,6 +11,10 @@ body {
 
 /* Utils */
 
+hr {
+	border: 2px solid gray;
+}
+
 .justify-end {
 	justify-content: flex-end;
 	align-items: center;
@@ -39,6 +43,22 @@ body {
 
 .bg-green {
 	background-color: #218B21;
+}
+
+.bg-darkgray {
+	background-color: #23272A;
+}
+
+.bg-salmon {
+	background-color: #F08180;
+}
+
+.bg-teal {
+	background-color: #20B3AA;
+}
+
+.bg-aqua {
+	background-color: #7FFFD4;
 }
 
 /* Header */
@@ -77,6 +97,8 @@ header {
 	height: 100%;
 	width: 25%;
 }
+
+
 
 /* Jumbotron & Jumbotron Panel */
 
@@ -120,12 +142,26 @@ header {
 	border: 2px dashed black;
 }
 
+
 .w-60 {
 	width: 60%;
-	height: 80%;
+	height: 90%;
+
 }
 
 .w-40 {
 	width: 40%;
-	height: 80%;
+	height: 90%;
+}
+
+/* Footer */
+
+.w-15 {
+	width: 15%;
+	height: 90%;
+	border: 2px dashed white;
+}
+
+.w-100footer {
+	width: 100%;
 }
