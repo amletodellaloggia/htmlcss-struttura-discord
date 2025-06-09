@@ -87,7 +87,7 @@ header {
 	align-items: center;
 	background-color: #00018B;
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	padding: 10px 0px 10px 0px;
 }
 
@@ -106,7 +106,7 @@ header {
 .divided-container {
 	display: flex;
 	width: 60%;
-	height: 600px;
+	height: 700px;
 }
 
 .w-60, .w-40 {
@@ -122,10 +122,10 @@ header {
 
 .w-60 {
 	width: 60%;
-	height: 90%;
+	height: 80%;
 }
 
 .w-40 {
 	width: 40%;
-	height: 90%;
+	height: 80%;
 }
