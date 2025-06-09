@@ -36,6 +36,7 @@ header {
 
 .header-navbar{
 	display: flex;
+	flex-wrap: wrap;
 	background-color: #DAA51E;
 	min-width: 1200px;
 	height: 50px;
