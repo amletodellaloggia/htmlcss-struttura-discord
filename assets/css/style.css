@@ -36,6 +36,11 @@ body {
 .bg-dodgerblue {
 	background-color: #1E90FF;
 }
+
+.bg-green {
+	background-color: #218B21;
+}
+
 /* Header */
 
 header {
@@ -96,6 +101,8 @@ header {
 
 /* Main */
 
+/* Sezione Container con Contenitori Alternati */
+
 .divided-container {
 	display: flex;
 	width: 60%;
@@ -103,15 +110,22 @@ header {
 }
 
 .w-60, .w-40 {
+	align-self: center;
+	border: 2px dashed black;
+}
+
+.w-100 {
+	width: 100%;
+	height: 90%;
 	border: 2px dashed black;
 }
 
 .w-60 {
 	width: 60%;
-	height: auto;
+	height: 90%;
 }
 
 .w-40 {
 	width: 40%;
-	height: auto;
+	height: 90%;
 }
